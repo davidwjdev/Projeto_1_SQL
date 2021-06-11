@@ -17,3 +17,5 @@ values  ('Compra', 'Mercadoria 1', -120.23 , '2021-06-07' ),
 	('Venda', 'Mercadoria 2', 9524.84 , '2021-06-10' );
 --Seleciona dados em ordem crescente da data
 select * from transacao order by data_cadastro asc;
+--Somatorio das transações
+select 'total', sum(valor) as valor from transacao;
