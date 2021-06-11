@@ -15,3 +15,5 @@ values  ('Compra', 'Mercadoria 1', -120.23 , '2021-06-07' ),
 	('Compra', 'Mercadoria 2', -500 , '2021-06-09' ),
 	('Venda', 'Mercadoria 1', 3244.12 ,'2021-06-08' ),
 	('Venda', 'Mercadoria 2', 9524.84 , '2021-06-10' );
+--Seleciona dados em ordem crescente da data
+select * from transacao order by data_cadastro asc;
