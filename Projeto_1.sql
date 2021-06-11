@@ -19,3 +19,6 @@ values  ('Compra', 'Mercadoria 1', -120.23 , '2021-06-07' ),
 select * from transacao order by data_cadastro asc;
 --Somatorio das transações
 select 'total', sum(valor) as valor from transacao;
+--Limpeza da tabela - qualquer um dos dois comandos limpam
+truncate table transacao;
+delete from transacao;
