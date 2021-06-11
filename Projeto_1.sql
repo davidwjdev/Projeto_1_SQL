@@ -11,7 +11,7 @@ valor float(10,2),
 data_cadastro date);
 --Insere dados
 insert into transacao (tipo, nome, valor, data_cadastro)
-values  ('Compra', 'Mercadoria 1', 120.23 , now() ),
-		('Compra', 'Mercadoria 2', 500 , now() ),
-		('Venda', 'Mercadoria 1', 3244.12 , now() ),
-		('Venda', 'Mercadoria 2', 9524.84 , now() );
+values  ('Compra', 'Mercadoria 1', -120.23 , '2021-06-07' ),
+	('Compra', 'Mercadoria 2', -500 , '2021-06-09' ),
+	('Venda', 'Mercadoria 1', 3244.12 ,'2021-06-08' ),
+	('Venda', 'Mercadoria 2', 9524.84 , '2021-06-10' );
